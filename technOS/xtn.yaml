@@ -1,0 +1,12 @@
+a:
+  name: "a"
+  type: "text"
+  extention: "txt"
+  group: "user"
+  content: "ligne1\nligne2\nligne3\n"
+  path: \b\
+
+b:
+  name: "b"
+  type: "folder"
+  group: "user"

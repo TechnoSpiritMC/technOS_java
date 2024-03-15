@@ -16,6 +16,7 @@ public class LoadConfig {
         Map<String, String> proprietes = new HashMap<>();
 
         String repertoireCourant = System.getProperty("user.dir");
+        System.out.println(repertoireCourant);
 
         String path = "xtn.config";
         File file = new File(repertoireCourant, path);
@@ -38,6 +39,9 @@ public class LoadConfig {
 
                 String version = proprietes.get("version");
                 String nom = proprietes.get("name");
+
+                System.out.println(version);
+                System.out.println(nom);
 
             } catch (IOException e) {
                 e.printStackTrace();
