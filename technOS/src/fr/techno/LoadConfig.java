@@ -18,7 +18,7 @@ public class LoadConfig {
         String repertoireCourant = System.getProperty("user.dir");
         System.out.println(repertoireCourant);
 
-        String path = "xtn.config";
+        String path = "main.filemanager";
         File file = new File(repertoireCourant, path);
 
         if (file.exists()) {
